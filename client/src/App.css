@@ -1,0 +1,78 @@
+.icon-large {
+  font-size: 7rem;
+}
+
+.carousel-image {
+  height: 92vh;
+  object-fit: cover;
+}
+
+.carousel-caption-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+  color: #fff;
+}
+
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+.gallery-card-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.gallery-card .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-card:hover .card-img-overlay {
+  opacity: 1;
+}
+
+.blog-card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+button {
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.get-in-touch-card {
+  background: url('/images/properties/1.jpg') center/cover no-repeat;
+  min-height: 300px;
+  padding: 20px;
+  position: relative;
+  color: white;
+}
+
+.get-in-touch-card h4 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.get-in-touch-card p {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
